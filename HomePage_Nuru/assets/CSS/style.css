@@ -1,0 +1,213 @@
+body {
+  background-color: #AFE9FF;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../Fonts/Spacegrotesk/SpaceGrotesk-Medium.ttf) format("truetype");
+}
+.properties {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem;
+  justify-content: center;
+}
+.properties .properties-image {
+  margin-right: 5rem;
+  position: relative;
+}
+.properties .properties-image img {
+  width: 359px;
+  height: 614px;
+}
+.properties .properties-image .img-assist img {
+  position: absolute;
+  width: 424px;
+  height: 15px;
+  top: 98.5%;
+  left: -30px;
+}
+.properties .propeties-content {
+  margin-left: 5rem;
+}
+.properties .propeties-content h2 {
+  color: #20184E;
+  text-transform: capitalize;
+  width: 530px;
+  height: 116px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  font-family: "Space Grotesk";
+  width: 530px;
+}
+.properties .propeties-content p {
+  color: #666666;
+  width: 440px;
+  margin: 19px 0 71px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+.properties .propeties-content a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #8828FF;
+  background-color: #8828FF;
+  border-radius: 40px;
+  padding: 16px 52px;
+  gap: 10px;
+  width: 216px;
+  height: 57px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.bonuces {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+.bonuces .bounces-title {
+  margin-top: 3rem;
+}
+.bonuces .bounces-title h2 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  width: 600px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #20184E;
+}
+.bonuces .bounces-title p {
+  width: 350px;
+  height: 104px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+}
+.bonuces .bounces-comments .bounces-message {
+  display: flex;
+}
+.bonuces .bounces-comments .bounces-message .avatar1 {
+  margin: 5rem 0 0 0;
+}
+.bonuces .bounces-comments .bounces-message .avatar2 {
+  margin: 5rem 0 0 1rem;
+}
+.bonuces .bounces-comments .bounces-message .message-first {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 325px;
+  height: 125px;
+  text-align: left;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+.bonuces .bounces-comments .bounces-message .message-first:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid #ffffff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 0;
+  left: -15px;
+}
+.bonuces .bounces-comments .bounces-message .message-first:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #ffffff;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  bottom: -1px;
+  left: -17px;
+}
+.bonuces .bounces-comments .bounces-message .message-second {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 325px;
+  height: 125px;
+  text-align: left;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  margin: 37px 0 37px 10rem;
+}
+.bonuces .bounces-comments .bounces-message .message-second:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid #ffffff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 0;
+  right: -15px;
+}
+.bonuces .bounces-comments .bounces-message .message-second:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #ffffff;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  bottom: -1px;
+  right: -17px;
+}
+.bonuces .bounces-comments .bounces-message .message-content {
+  margin: 0;
+  padding: 10px;
+  color: #ADABB7;
+}
+.bonuces .bounces-comments .bounces-message .message-owner-left {
+  color: #20184E;
+  height: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+.bonuces .bounces-comments .bounces-message .message-owner-right {
+  color: #20184E;
+  text-align: end;
+  height: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+.bonuces .bounces-comments .bounces-message .message-timestamp-left {
+  position: absolute;
+  font-size: 0.85em;
+  font-weight: 300;
+  bottom: 20px;
+  right: 5px;
+  color: #ADABB7;
+}
+.bonuces .bounces-comments .bounces-message .message-timestamp-right {
+  position: absolute;
+  font-size: 0.85em;
+  font-weight: 300;
+  bottom: 20px;
+  left: 5px;
+  color: #ADABB7;
+}/*# sourceMappingURL=style.css.map */
